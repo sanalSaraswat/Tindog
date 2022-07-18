@@ -1,0 +1,174 @@
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+h1 {
+    font-family: "Montserrat" sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: "Montserrat" sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat" sans-serif;
+    font-weight: bold;
+}
+
+.navbar {
+    margin: 0 0 2.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.downloadButton {
+    margin: 5% 3% 5% 0;
+}
+
+
+
+
+
+p {
+    color: #5c5d5e;
+}
+
+.icon {
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+.image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* Feature section */
+#features {
+    padding: 7% 15%;
+    position: relative;
+    background-color: #fff;
+}
+
+.featureBox {
+    text-align: center;
+    padding: 5%;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #ef8172;
+    
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+    
+}
+
+/* Press section */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+} 
+
+/* Pricing */
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+/* cta Section */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.ctaHeading {
+    font-family: "Montserrat-Black" sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer Section */
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footerIcon {
+    margin: 20px 10px;
+}
+
+
+@media (max-width: 992px) {
+    .image {
+        transform: rotate(0);
+        position: relative;
+    }
+
+    #features {
+        padding: 7% 15%;
+    }
+    .container-fluid {
+        text-align: center;
+    }
+}
+
+
+
+
+
